@@ -6,6 +6,7 @@ author:
   - Bashir Anakobe
 categories: [blog]
 tags: [jekyll, tutorial]
+feature-img: /assets/images/jekyll.png
 ---
 
 # Introduction to Jekyll

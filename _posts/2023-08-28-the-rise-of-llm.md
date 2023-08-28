@@ -6,7 +6,6 @@ author:
   - Bashir Anakobe
 categories: [AI, Technology]
 tags: [LLMs, Artificial Intelligence, Technology, Innovation]
-image: assets/images/jekyll.png
 ---
 
 In the ever-evolving landscape of artificial intelligence, a new phenomenon is captivating the tech world: Large Language Models (LLMs). These digital virtuosos have emerged as the contemporary trailblazers poised to reshape the very fabric of human-computer interaction. Harnessing the power of colossal datasets comprising text and code, LLMs have unfurled a realm where machines not only comprehend but articulate and create with an astonishing flair.

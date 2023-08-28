@@ -25,6 +25,9 @@ layout: base
         {% endfor %}
       {%- endif -%}</p>
   </header>
+  {%- if page.feature-img -%}
+  <img src="{{ page.feature-img }}" alt="Feature Image">
+  {%- endif -%}</p>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}

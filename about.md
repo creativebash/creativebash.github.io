@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
+feature-img: /assets/images/bashir.jpg
 ---
 
 Greetings! 👋 I am a passionate Data Professional and Software Engineer with a wealth of experience in crafting and deploying data-intensive solutions. My journey has been shaped by a deep-rooted love for technology and an insatiable curiosity that drives me to explore and innovate.
