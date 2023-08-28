@@ -7,5 +7,5 @@
 #
 layout: home
 ---
-# 🚀 Welcome aboard!
+## 🚀 Welcome aboard!
 Embark on a journey through code, data, and innovation with a sprinkle of business insights – let's explore the exciting intersection of tech and strategy! 🌟
