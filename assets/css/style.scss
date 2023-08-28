@@ -7,7 +7,30 @@
   "minima/initialize";
 
 body{
-  font-size: 1.2em;
-  background-color: rgb(44, 44, 44);
-  color:antiquewhite;
+  font-size: 1.1em;
+  background-color: #151520;
+  color: #d9d3df !important;
+}
+.site-nav{
+  background-color: #151524;
+}
+.page-link, .post-link, .site-title, .post-title{
+  color: #bc79ff !important;
+}
+.post-link{
+  font-weight: 600;
+}
+code{
+  background-color: #232341;
+  color: rgb(246, 198, 255);
+  font-size: 1rem;
+  border: 1px solid yellow;
+  padding: 3px;
+}
+a{
+  color: yellow !important;
+}
+
+h2, h3{
+  color: #debdff !important;
 }
