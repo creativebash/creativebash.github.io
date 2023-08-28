@@ -2,6 +2,8 @@
 layout: post
 title: "Getting to know Jekyll"
 date: 2023-08-27 14:00:00 +0100
+author: 
+  - Bashir Anakobe
 categories: [blog]
 tags: [jekyll, tutorial]
 ---

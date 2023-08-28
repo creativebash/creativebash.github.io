@@ -2,11 +2,11 @@
 layout: post
 title: "Introduction to Data Engineering"
 date: 2023-08-27 21:14:00 +0100
+author: 
+  - Bashir Anakobe
 categories: [data-engineering]
 tags: [data, engineering, ETL, pipelines]
 ---
-
-# Introduction to Data Engineering
 
 Data engineering is a crucial discipline in the field of data science that focuses on designing, building, and maintaining data pipelines and infrastructure. It plays a fundamental role in ensuring that data is collected, processed, and made accessible for analysis and business decision-making.
 
