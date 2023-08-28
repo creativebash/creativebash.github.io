@@ -24,6 +24,8 @@ disqus:
   # shortname: your_disqus_shortname
 
 minima:
+  # skin:dark
+
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
