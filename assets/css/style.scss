@@ -15,7 +15,7 @@ body{
   background-color: #151524;
 }
 .page-link, .post-link, .site-title, .post-title{
-  color: #bc79ff !important;
+  color: #ffdf99 !important;
 }
 .post-link{
   font-weight: 600;
@@ -28,12 +28,10 @@ code{
   padding: 3px;
 }
 a{
-  color: yellow !important;
+  color: rgb(0, 251, 255) !important;
 }
 
-h2, h3{
-  color: #debdff !important;
-}
+
 hr{
   border: 1px dashed rgba(255, 255, 135, 0.46);
 }
@@ -53,5 +51,5 @@ hr{
 }
 
 .page-content{
-  background-color: #181824;
+  background-color: #181c28;
 }
