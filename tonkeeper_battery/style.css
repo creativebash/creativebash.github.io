@@ -1,0 +1,466 @@
+:root {
+  --bgcolor1: rgba(16, 22, 31, 1);
+  --bgcolor2: rgba(17, 47, 63, 1);
+  --green: #218838;
+  --blue: #0caff4;
+  --white_faded: #ffffffa8;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bgcolor1);
+}
+h2 {
+  color: whitesmoke;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+/* Hero Section */
+.hero {
+  /* background: url("images/hero-bg.jpg") no-repeat center center/cover; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  background: radial-gradient(
+    circle,
+    var(--bgcolor2) 0%,
+    var(--bgcolor1) 30%,
+    var(--bgcolor1) 100%
+  );
+}
+nav {
+  display: block;
+}
+.logo-img {
+  width: 50px;
+}
+.hero-title,
+.typing-effect {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 20px;
+  /* line-height: 116px; */
+}
+.hero-title .battery {
+  color: #ffffff;
+}
+.typing-effect {
+  min-height: 75px;
+  color: var(--blue);
+}
+
+.cursor {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 4px;
+  height: 70px;
+  margin-left: 2px;
+  animation: blink 0.7s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content p {
+  font-size: 1.2em;
+  max-width: 500px;
+  color: var(--white_faded);
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button {
+  background: var(--green);
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #0056b3;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding: 50px 20px;
+  background: var(--bgcolor1);
+}
+
+.feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: linear-gradient(
+    rgba(17, 47, 63, 1) 0%,
+    rgba(17, 47, 63, 1) 50%,
+    var(--bgcolor1) 85%
+  );
+  color: whitesmoke;
+  border-radius: 44px;
+  padding: 28px 36px 0;
+  width: 300px;
+}
+.card-text {
+  text-align: left;
+}
+.card-text h3 {
+  font-size: 24px;
+}
+.card-text p {
+  color: var(--white_faded);
+}
+
+.feature-cards .card-images {
+  height: 400px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-gasless-payments {
+  background: linear-gradient(
+      rgba(16, 22, 31, 0) 0%,
+      rgba(16, 22, 31, 0) 65%,
+      rgba(16, 22, 31, 0.479) 75%,
+      rgba(16, 22, 31, 0.856) 80%,
+      var(--bgcolor1) 85%
+    ),
+    url("images/0_Ton.png");
+}
+
+.card-nft-transfers {
+  background: linear-gradient(
+      rgba(16, 22, 31, 0) 0%,
+      rgba(16, 22, 31, 0) 65%,
+      rgba(16, 22, 31, 0.479) 75%,
+      rgba(16, 22, 31, 0.856) 80%,
+      var(--bgcolor1) 85%
+    ),
+    url("images/snd_NFT.png");
+}
+
+.card-easy-top-up {
+  background: linear-gradient(
+      rgba(16, 22, 31, 0) 0%,
+      rgba(16, 22, 31, 0) 65%,
+      rgba(16, 22, 31, 0.479) 75%,
+      rgba(16, 22, 31, 0.856) 80%,
+      var(--bgcolor1) 85%
+    ),
+    url("images/Battery-page.png");
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.5s ease;
+}
+.slide-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* How It Works Section */
+.how-it-works {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  /* transition: transform 0.3s; */
+}
+
+.step .card-image {
+  width: 100%;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+/* Battery section */
+.battery-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.battery-section h2 {
+  color: #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.battery-section p {
+  color: #b0b0b0;
+  margin-bottom: 40px;
+}
+
+.battery-section .feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.battery-section .card {
+  background: linear-gradient(
+    rgba(17, 47, 63, 1) 0%,
+    rgba(17, 47, 63, 0.652) 50%,
+    rgba(17, 47, 63, 0.864) 95%
+  );
+  border-radius: 24px;
+  width: 180px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.battery-section .card:hover {
+  transform: scale(1.05);
+}
+
+.battery-section .icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: rgb(255, 191, 242) !important;
+}
+
+.battery-section .card-text h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #f1f1f1;
+}
+
+.battery-section .card-text p,
+.battery-section .card-text ul {
+  font-size: 0.9em;
+  color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* usage statistics */
+
+.stats-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+.stats-section {
+  color: whitesmoke;
+}
+
+.stats-section .stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stats-section .stat-item {
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #cdcdcd;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+  position: relative; /* Needed for absolute positioning */
+}
+
+.stats-section .stat-item:hover {
+  transform: translateY(-5px);
+  background-color: #d9d9d9;
+}
+
+.stats-section .stat-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: yellowgreen; /* Green color */
+}
+
+.stats-section .stat-text h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.stats-section .stat-text p {
+  font-size: 1.1em;
+  margin: 0;
+  color: #666;
+  position: relative; /* Needed for absolute positioning */
+}
+
+.stats-section .stat-text p span {
+  display: inline-block;
+}
+
+/* Animation Keyframes */
+@keyframes animateNumber {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply Animation */
+.stats-section .stat-text p span.animate {
+  animation: animateNumber 1s ease-in-out infinite;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  position: relative;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--bgcolor2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  transition: background 0.3s;
+}
+
+.back-to-top:hover {
+  background: #0056b3;
+}
+
+.back-to-top.show {
+  display: block;
+}
+
+/* Getting started */
+.get-started {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Accessibility Enhancements */
+a {
+  color: #a0ceff;
+}
+a:focus,
+button:focus {
+  outline: 2px dashed #a0ceff;
+  outline-offset: 4px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .hero-title,
+  .typing-effect {
+    font-size: 80px;
+    line-height: 96px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-title,
+  .typing-effect {
+    font-size: 64px;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title,
+  .typing-effect {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title,
+  .typing-effect {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 414px) {
+  .hero-title,
+  .typing-effect {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-title,
+  .typing-effect {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
