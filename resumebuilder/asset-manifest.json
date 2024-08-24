@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/resumebuilder/static/css/main.d6efdbe4.css",
+    "main.js": "/resumebuilder/static/js/main.d83110a2.js",
+    "static/js/453.651cb5c8.chunk.js": "/resumebuilder/static/js/453.651cb5c8.chunk.js",
+    "static/media/John_Doe_Resume_3.jpg": "/resumebuilder/static/media/John_Doe_Resume_3.c3cf1f0b50f1775f67a8.jpg",
+    "static/media/John_Doe_Resume_1.jpg": "/resumebuilder/static/media/John_Doe_Resume_1.55e1cd141255e28f3172.jpg",
+    "static/media/John_Doe_Resume_2.jpg": "/resumebuilder/static/media/John_Doe_Resume_2.3db3d3f56d71dac2ef1a.jpg",
+    "index.html": "/resumebuilder/index.html",
+    "main.d6efdbe4.css.map": "/resumebuilder/static/css/main.d6efdbe4.css.map",
+    "main.d83110a2.js.map": "/resumebuilder/static/js/main.d83110a2.js.map",
+    "453.651cb5c8.chunk.js.map": "/resumebuilder/static/js/453.651cb5c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6efdbe4.css",
+    "static/js/main.d83110a2.js"
+  ]
+}
